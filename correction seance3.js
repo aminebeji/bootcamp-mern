@@ -35,6 +35,19 @@ const checkDuplicated = (word, pattern) => {
   return true;
 };
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 const checkLetters = (word, pattern) => {
   for (var i = 0; i < word.length; i++) {
     if (pattern[i] != "*" && pattern[i] !== word[i]) {

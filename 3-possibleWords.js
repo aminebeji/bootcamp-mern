@@ -34,6 +34,16 @@ the letters 'g' or 'd' that appear inside the pattern.
 +-----------+----------------------------------------------------+
 
 */
+
+
+
+
+
+
+
+
+
+
 const { readFileSync } = require("fs");
 const matchPattern = (word, pattern) => {
   for (var i = 0; i < pattern.length; i++) {
